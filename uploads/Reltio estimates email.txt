@@ -1,0 +1,31 @@
+Subject: [Reltio] Request for Approval on Estimates for Enhancements
+
+Hi Chris,
+
+Trust you are doing well.
+
+As per our discussion from last meeting, we have estimated the enhancements and divided them into three parts:
+
+I. Automated Notification Enhancement for script failure 
+
+Table
+
+
+II. Additional Enhancements for the Dashboards and Data Clean Up
+
+Table
+
+III. Enhancements that are dependent on the access to identify scope and effort
+
+Table
+
+For YouTube Analytics dashboard, we required YouTube access for analysing data.
+For Influenced Pipeline Revenue, we require below prerequisites to proceed further:
+1. Create a copy of "Pipeline Attribution" prep flow with different output file name and dashboard with creator access for Sarabjot's id sarabjot.singh@grazitti.com.
+2. Business Requirement understanding (why we are creating these reports?)
+3. Do we need to integrate with any existing dashboards or into a new dashboard. If existing then which one?
+
+
+Attaching a copy of estimate sheet as well.
+
+Looking forward to your approval on points I and II above.

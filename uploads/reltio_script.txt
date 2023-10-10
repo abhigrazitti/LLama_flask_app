@@ -1,0 +1,145 @@
+Transcript:
+Chris Detzel: Hello.
+Lovish Verma: Hey, hi Chris. How are you? Doing good to thank you.
+Chris Detzel: I'm good. How about you?
+Chris Detzel: Get your email and just have a couple questions about it.
+Chris Detzel: I guess we can wait till everybody gets on I guess, but
+Lovish Verma: Is not going to join today.
+Chris Detzel: I don't know. because you need to since he approved he accepted so he'll probably come
+Lovish Verma: Yeah, Ramita is not able to join. She has some other thing.
+Chris Detzel: Okay.
+Chris Detzel: so it's seven o'clock his time so I don't know, maybe Shows that I accepted, I guess, right? So
+Chris Detzel: I usually comes.
+Lovish Verma: Thank Yeah, I think he likes these meetings. A little lesser right. It's too early for him.
+Chris Detzel: Yeah, but he's used to it probably.
+Lovish Verma: So I yeah.
+Chris Detzel: so On the quote, you sent is that overall 30 hours or am I missing something? Because I'm not clear The hours or is it 37 hours? So once that's 30.
+Lovish Verma: I let you.
+Chris Detzel: Manual for Case of Failure Point, I guess I don't understand. All of that. Okay.
+Lovish Verma: I'll help you understand. I am actually just waiting for you to joining and I'm just going to jump.
+Chris Detzel: Okay.
+Lovish Verma: And the painting. Let's see if they responds.
+Lovish Verma: Mature, I can help you with this. So basically, this is divided into three type of works. So first one is automated. Notification enhancement allowing the alert mechanism which we discuss last time in case of any failures.
+Chris Detzel: Yeah.
+Lovish Verma: Yeah, that one. So the 30 hours is basically one time development asks which are there it involves setting up the bigquery right so we are trying to that integrate RDP with the bigquery. Right. So where we have our scripts who stayed on the VM. That and then data sending to the Bigquery and then from the Bigquery we want to enable a notification mechanism. So this is a one-time cost.
+Chris Detzel: Let me see, let me share my screen. So Luke kind of knows too. Probably helps.
+Lovish Verma: Hello.
+Luke Austin: Morning.
+Chris Detzel: so, I don't know if you're on the last one or not, Luke, but basically they're wanting to automate notifications for script failures. So basically when something fails somebody's automated or I mean, somebody emailed notified
+Chris Detzel: Keep going Lovish. This way, yeah.
+Lovish Verma: So the first one was about the automated notification in case of any failure. So that is Chris, this is one time asks of 30, 30 answer physical and after that in case we get a notification that hey, your script fail, even after trying to read on them automatically, in that case, a manual effort is involved. That manual effort is estimated at, point five to two hours, based on the number of scripts, which way So some of the scripts they take what two or three minutes, while some of the scripts they take one or two hours also. So depending upon that, this is the estimate which we have provided. And this would be, as required, the frequency, that's required because whenever the failure is happening, this is what the estimate is, the ask, it would be That makes sense.
+Chris Detzel: Okay, so yeah, what are we saying? Overall for this piece 30 plus, Two hours. Or.
+Mukul Bansal: So Chris, what we all suggesting is that for this particular piece, we should basically go in and we should sign a bucket of, 100 hours. So out of those hundred hours initially will be spending the 30 hours to set up those scripting and things lovish. Your screen is dictionary okay,…
+Lovish Verma: But it's a sharing is pre-nection.
+Chris Detzel: Yes. That's me.
+Mukul Bansal: so we can okay and once these 30 then we'll have those remaining 70 hours and as in when, we'll see any failures and things basis, that will be spending the house.
+Chris Detzel: Are you saying overall a hundred hours using the 30 hours plus 70 hours for this?
+Mukul Bansal: So yeah, so 70 hours, I mean, these 70, We don't know that, how many failures are gonna come? We don't know, we'll receive one failure a month or we'll receive 10 failure, but I mean that's the reason I'm suggesting because, the minimum buckets that we sign is generally, 100 hours having said that, if you want to like, the other additional requirements that we have below the enhancements. So lovish to, what's the total for these
+Lovish Verma: Some of these enhancements are one-time activities and some of them are as required. So that is why that bucket and would work best for these also.
+Mukul Bansal: This is real. And then maybe, start buffer of We can find, hundred hours, we can cover these enhancements under those as well. And then keep a buffer of another 30 40. But my suggestion is that, whenever we sign the bucket, we keep a buffer of, at least 20 hours for those one time for those tickets so that, whenever we run out of those, then we sign a new one. If you understand what?
+Chris Detzel: So this, okay, so you're saying 30 hours for this and then there's some hours here. So you're saying, let's have a hundred hours but when we put all this together, so it's not completely clear Exactly what you're trying to do here. I need to know, How many hours's I mean I guess in due time 65 is kind of A bucket hours, And then My worry is what happened last time? Is that we said, here's a bucket hours. I think I said three to 500 hours or the first time, But then we had to go back and readjust it and say, No, it's gonna take this many hours. Let's say okay nope, it's gonna take this moment. Okay, and then I said, Okay stop. we so
+Chris Detzel: I just want to make sure that it's gonna take 30 hours and the other hours will be used for this. But let's be clear on about how many hours this is gonna take and…
+Mukul Bansal: Okay, so on the …
+Chris Detzel: this before I start,
+Mukul Bansal: so on the 30 hours Chris, we're sure on that. So if you see the items which you say one time the hour estimate, for those who remain the same, but the hours wherein it says Add required that is basically a per incident hour. Okay. Yeah.
+Chris Detzel: What? I get that. You're just saying have a but a few hours of a bucket got it.
+Mukul Bansal: Yeah, so for the ads required, we keep some in the bucket. the ones that are mentioned Lovish multiple values for Customer field, 50 records, any new changes to the file. What's the scenario?
+Lovish Verma: Yeah, I'll tell you I just want you to add to the previous statement here before. So earlier we were having dependency on high logic as quite a lot of dependency on that but this time we are sure of these hours because we have all the things which we want with us.
+Chris Detzel: Okay.
+Lovish Verma: Yeah, Basically, wherever we need your support Chris or Luke, we have you here. So no, external parties are not. So we are quite confident with these last this time. So, having said this? Yeah. So these are the additional enhancements or the follow-ups, which came up from, the previous delivery. So multiple values of customer field, 50 records. What this means that people who have multiple values for their account times, whether they are Yes, No or their partner as well as customer so based on. So, right now, the number of records were around for last time when we checked in June, but if that count has increased somehow. So we have just given an estimate then we plan to set up a mechanism so that Minimum involvement from Luke.
+Lovish Verma: Or Chris side is required, we will set up as mechanism where we'll upload a file to the G drive and now tabletop will automatically take this. to set up this entire system we have given these are
+Chris Detzel: Okay, yeah, so it sounds like you're gonna try to automate some of that, whenever we push in some data,…
+Lovish Verma: yes.
+Chris Detzel: that has customer information that they didn't say. Yes, I'm a customer. No, I'm not or whatever that will figure out if it's a customer or a partner or not. And then put that automatically into tableau, right?
+Lovish Verma: Yes, right now it's a manual effort. there is a file…
+Chris Detzel: Yeah.
+Lovish Verma: which we manually input it, so that has to change.
+Chris Detzel: So that looks like that's another 33 hours here, That's what I calculated is that Or am I, I mean,
+Chris Detzel: I mean. So when I okay,…
+Lovish Verma: Yeah.
+Chris Detzel: so that's 33 hours, 30 hours. So 63 hours. Plus.
+Chris Detzel: Okay, and then I want to do this. Because I think this is gonna be important over time. But I think this is kind of the maintenance piece that we need to fix and clean up, And so, what I would suggest is that it's just me saying it out loud and look, if you have any other thoughts is, let's get a hundred hours and we can fix this up for the 30 hours. Plus whatever this is, and another 33 hours. So that leaves us, probably 20 hours left. Right? And then we'll go from there. is that a fair?
+Chris Detzel: I mean to me, that's what Seems like they should be enough.
+Luke Austin: That it makes sense.
+Chris Detzel: Lovish. I mean is that So let's say give us a hundred hours and we can do those two things and we should still have some hours left over and…
+Mukul Bansal: Absolute.
+Chris Detzel: we can,…
+Lovish Verma: Yeah. Yeah.
+Chris Detzel: Yeah, we can just be which it's 65 dollars, So, I'm 65. 6500, is that right?
+Mukul Bansal: Yes.
+Chris Detzel: all right, so What I'll have to do is if you want to. So I'm cool with doing those two things. We'll talk about the other thing later just…
+Mukul Bansal: Okay.
+Chris Detzel: because I don't like to have 20 things up in the air and just don't know. And I want to just complete certain things and tasks, We'll do that and we'll see how that goes. So let's do that and send me the…
+Mukul Bansal: Should.
+Chris Detzel: then voice and stuff, I'll get that through. Most likely And then we'll go from there. I do want to kind of start thinking about, maybe not this call, but
+Chris Detzel: there's some opportunity and Luke and I have not got together yet about this, but I think there's opportunity to kind of link up. community data. And to say,
+Chris Detzel: the overarching thing here will be when customers come to the community, they renew at higher rates. that's my thoughts anyways. whether they're true or not. That's what I want to prove out when they engage in the community we have higher renewal rates, we have opportunity for upsell cross sell and here's the proof kind of stuff. What that looks like? I have no idea.
+Chris Detzel: and so that's what we have to figure out is what does a dashboard look like to prove out, renewals that start, at this date and then into this date and then customers that are part of community
+Chris Detzel: that is it higher rates or do they engage at higher rates and Do they actually buy more from an expansion standpoint, know what I mean? And so before I had all these ideas and thoughts about what a dashboard will look like with community and things like that. I don't know. Not exactly, I'm sure. Luke would have some thoughts and…
+Lovish Verma: So, can I just ask Yeah.
+Chris Detzel: you guys. Yeah.
+Lovish Verma: So the two things here, First one would be people who are on the community or visiting the community, you will have that data and…
+Chris Detzel: Yep.
+Lovish Verma: people who are not on community but have what the product, you will also have that data. Yeah, so that Okay,…
+Chris Detzel: We have that data. Yeah.
+Lovish Verma: then that would be not so much. Challenging second thing would be about the renewal.
+Chris Detzel: It will be challenging because, it's all gonna be a challenge.
+Lovish Verma: So getting the data, yeah. Yes.
+Chris Detzel: But, yeah, anyways, good.
+Lovish Verma: Yes, I'm getting that. I mean the biggest challenges, the data not being available right? You have the data that is a socket…
+Chris Detzel: Yeah. Yeah.
+Lovish Verma: but how to move it according to our requirement or get the relevant data out, that would be the one challenge letter, I mean to say, So second thing was,…
+Chris Detzel: Yeah, I am.
+Lovish Verma: I think I wanted to talk about this earlier. Also, do you have surveys on the community service, rolled out on the community in any form?
+Chris Detzel: I have surveys but not really. I mean, I haven't done many. I mean What I find is, they didn't work right, because it's on to the side now. We could probably figure out ways to pop up a survey, which would probably be better, And I'm sure there's a way to do that and I'm not sure how I've not done surveys like that. We can send out emails to do surveys. So, …
+Lovish Verma: Please.
+Chris Detzel: there's opportunities to do it, so that's not a no. But we don't have them now.
+Lovish Verma: In.
+Chris Detzel: Basically, I mean, there's not really much traffic that goes to, that better way to do surveys in my opinion, is just create a Google survey and then, have it emailed out to him and taking the survey on a Maybe monthly bases, probably better than we, don't do it all the time because I get pissed.
+Lovish Verma: You makes sense, okay? If I'm very happy with some something, which I wanted to find out on a community, I feel I and people around they fill out those part of say, in case you did not find this answer, Would you have the idk? What would be your next section? In that case, something like that, which indicates that importance of community.
+Chris Detzel: Yeah.
+Lovish Verma: If you have survey, that's a pointer to talk about, even the traffic is very less on. still, you have some point People who visited the community out of those,…
+Chris Detzel: Yeah.
+Lovish Verma: those who filled out the survey. This is what they are saying. So you have a point of view. It's a good thing.
+Chris Detzel: Yeah that's just something to think about we're not ready yet. I mean looking I need to have conversations and dive in deep and probably get Joel engage involved and then we can kind of get you guys to build it out. But For now, I think that we should just kind of go with what we mentioned. So if you want to send the invoice and quote, Because, I mean, what I got I mean, it's got to be clear kind of what you have, but hey, it's gonna be this 100 hours X number dollars. You know what I mean? these hours are used for this, and this is the bucket of hours, right? So, that's how it kind of put that. So, it's clear because what you said to me today or earlier sort of clear, but I had to, make some stuff up, Cool, anything else? I mean, did you have anything for Luke Clovis?
+Lovish Verma: Only this thing The next steps. Basically where we have dependency on Luke for some of the things, which is part of the second item additional enhancements. The Influence Revenue report needs some access for that and to set up the automated way, where the tablet will pick up the files. From G Drive, we'll need Luke's input, but not maybe for this phone when we actually start working on it. Really?
+Chris Detzel: Okay, look, I sent you the information just so you have some ideas. There's number two. Yeah, just now But I mean…
+Luke Austin: Just now. I got.
+Chris Detzel: if you have any thoughts or whatever later, let me know or I think what we're trying to do is just automate this as best as we can. So we don't have to rely on me and you to go in there and do a bunch of stuff.
+Luke Austin: That's good.
+Chris Detzel: Yeah. Yeah, look, I mean, the bulka I say the book, I mean, there's always work to do, but the huge list I hope is pretty much done. And now it's just kind of cleaning it up and making it more automated and better. we didn't know now. We know more so hopefully, it's cleaned up better and that kind of stuff. And so what you send that quote Nicole, I'll send it over to get approved and everything else and we'll go from and we'll start getting the work done. That's cool.
+Lovish Verma: Because here, are you talking?
+Mukul Bansal: I'm really sorry.
+Chris Detzel: No worries.
+Mukul Bansal: Could you please repeat yourself Chris? I'm sorry.
+Chris Detzel: Yeah, I mean, send the quote over like I mentioned and…
+Mukul Bansal: Yeah.
+Chris Detzel: then I'll start getting approvals and everything else. And, the last thing I'll say is, we talked last time about the zendesk thing potential, right? And so you're gonna send me some business reasons of why and how it's helped so that I can, push our support team to pay for it. it's so,…
+Mukul Bansal: Yeah. I
+Chris Detzel: if you want to start thinking about that, if not, then and I'm not gonna worry about it but if you want to send that over, I can start trying to push our support folks that I think integrating this directly into zendesk is an opportunity and I'm gonna have to do a lot of pushing but one of the things
+Chris Detzel: It's obvious case deflection is the key at the end of the day, what that means, how helpful that's gonna be to them, and all that kind of stuff is going to be? I think, is the business reason. So, if you have case studies, if you have something that I can really push to them to start getting there to see their interest, it'd be great.
+Mukul Bansal: I mean, Chris, I'm, just refresh my memory in the current support environment is there a case form available to the customers? not through the community…
+Chris Detzel: The case form.
+Mukul Bansal: but on the support portal for the support team How does the support ticket get raised today? Is it only through emails or is there a support for me?
+Chris Detzel: I know there's a support portal. So if you go to support Dot realtyo.com, it's on zendesk and they have to log in and when they log in, they can create a case.
+Mukul Bansal: Okay, and then it's search unify implemented there.
+Chris Detzel: Search unify is implemented there and community and docs. so,
+Mukul Bansal: So, in this scenario of the droi, prospective would not be the case reflection because they're already getting the deflection. But the major ROI factor for those guys would be in terms of the licensing cost and send us that would be safe, they would not need those and just license for all the users we would need just one license. Once we implement the case connector. And then the journey on the community,…
+Chris Detzel: Okay. yeah.
+Mukul Bansal: I'll work on it and I'll share a detailed even with you.
+Chris Detzel: Yeah, work on that because I'll need to be able to Say some things too. and…
+Mukul Bansal: Sure.
+Chris Detzel: be smart about help me to get up to date and smart about some of that stuff and then I'll send you questions as I have them. So
+Mukul Bansal: Absolutely. That would be wonderful. Thank you.
+Chris Detzel: cool.
+Mukul Bansal: Okay, thank you.
+Chris Detzel: All right, anything else?
+Mukul Bansal: I'm good Lovish.
+Chris Detzel: Okay. All…
+Lovish Verma: and with
+Mukul Bansal: Anything you
+Chris Detzel: guys. Thanks so much. Luke. Thanks for getting on,…
+Mukul Bansal: great.
+Chris Detzel: really appreciate it.
+Mukul Bansal: I guess the
+Chris Detzel: Take care.

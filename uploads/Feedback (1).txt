@@ -1,0 +1,25 @@
+- No Formatting, Calculation, and Filter mistakes : 
+		Filter mistakes reported in QBR Dashboard - only relevant values missing, cross filters reported in 2 dashboards (filters of 1 dashboard impacting other dashboard) 
+		Tooltip mistakes reported in QBR Dashboard - Showing Avg time to first response(days) but parameter selected is hours
+		No legends assigned on line charts of cases opened and cases closed
+		Set created for removing nulls was including values rather than excluding nulls, leading to missing out some relevant values and wrong numbers in chart
+		Region global filter on dashboard and region field used in columns of charts coming from different table, leading to inaccuracy when filter is applied on dashboard	
+
+- Should be able to write/debug/backtrack SQL queries and data fetched.
+		Needs more hands on experience on basic - intermediate SQL : joins, where, groupby, date fns, string fns
+		Needs more hands on experience on intermediate - advanced Tableau - LOD calculations, case statements, KPI validation methods, filter hierarchy 
+
+- No Delivery miss
+		Need to work faster in short time frame, by having more hands on tableau and SQL experience, and overall understanding of data
+
+- FTR should be > 80%
+		In simple tasks it is around 70-80%
+		In complex tasks it is around 50%
+	
+- Zero Escalations from Internal and external stakeholders
+		Faster delivery with accuracy required 
+		More hands on exp in tools and overall understanding of data
+		No external escalation
+
+- Accurate content
+		Fine			

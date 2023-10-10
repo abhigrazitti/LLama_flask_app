@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text File Upload and Display</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .file-upload {
+            text-align: center;
+        }
+        pre {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>MOM Generator</h1>
+    <div class="file-upload">
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".txt">
+            <input type="submit" value="Generate MOM">
+        </form>
+    </div>
+    <hr>
+    {% if content %}
+    <h2>Results:</h2>
+    <pre>{{ content }}</pre>
+    {% endif %}
+</body>
+</html>
+
