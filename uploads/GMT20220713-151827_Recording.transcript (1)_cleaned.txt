@@ -1,0 +1,200 @@
+Vishal Bhardwaj: It is already tested.
+Vishal Bhardwaj: by yourself and tragic mile and it is working, as expected, so we are hoping to deploy it as soon as you make.
+Trevor Norman (he/him/his): Three Okay, let me just make a note we'll get someone to to play that.
+Vishal Bhardwaj: and also the deployment steps are also on the ticket.
+Vishal Bhardwaj: ticket.
+Vishal Bhardwaj: So the next one is about the the new POs value on the current POs feed on the account.
+Vishal Bhardwaj: And the opportunity.
+Vishal Bhardwaj: With this ticket we have added the FA and D, that is, functional and technical analysis on this so.
+Vishal Bhardwaj: Who wants to review these and approved, then we can start the value to the current US on account and on moving on opportunity.
+Trevor Norman (he/him/his): Here i'm just pulling that up right now.
+Vishal Bhardwaj: Okay, so we just need an approval from you.
+Trevor Norman (he/him/his): actually do not have access.
+Vishal Bhardwaj: i'll just open this analysis here.
+Vishal Bhardwaj: So you can see it on the screen.
+Trevor Norman (he/him/his): hey scroll on down for me.
+Vishal Bhardwaj: And just confirm trauma.
+Trevor Norman (he/him/his): yep, I can confirm that that is what they are looking for.
+Vishal Bhardwaj: Okay, so I think we can stick it to in progress and complete this by tomorrow.
+Trevor Norman (he/him/his): You are wonderful Thank you and we just picked up Donna.
+Trevor Norman (he/him/his): one.
+hey guys.
+Dhana Luna: hey amanda on selection I slept saying that was maybe a little bit late.
+Vishal Bhardwaj: i'm sorry Dan I didn't really get that I mean your voice was so.
+Dhana Luna: hilarious I slept I slept the city channel channels and that was gonna be five minutes late.
+Vishal Bhardwaj: Oh yes, donal actually I was going to talk about that as well, I cannot access my slack right now.
+So if I.
+Vishal Bhardwaj: Try to open it.
+Vishal Bhardwaj: Well, this is the.
+Vishal Bhardwaj: This is the main screen that I.
+Trevor Norman (he/him/his): do want to type in shout out calm continue and see if we can get through.
+Dhana Luna: Wednesday this.
+Trevor Norman (he/him/his): Is not calm yeah sorry just shout out.
+Trevor Norman (he/him/his): slack.
+Dhana Luna: channels like that.
+Trevor Norman (he/him/his): I would give that a try.
+Dhana Luna: To get.
+Dhana Luna: There, and our and our Google, but.
+Vishal Bhardwaj: This is the same manner that I was getting are you.
+Dhana Luna: When you try to less than did you send in us against.
+Vishal Bhardwaj: Sorry, no, I tried to sign in as.
+Vishal Bhardwaj: me.
+Dhana Luna: yeah I don't think China with our global depository, so I would try as a guest.
+Vishal Bhardwaj: i'm not sure if I have any possible so.
+Dhana Luna: let's do it.
+Vishal Bhardwaj: Okay, so i'll be waiting for this if I get any votes from you on the email then.
+Vishal Bhardwaj: i'll definitely try the steps.
+Dhana Luna: Thank you.
+Vishal Bhardwaj: Okay, great So do you have any specific message that you would like to convey right now so maybe we can discuss it in.
+Dhana Luna: Not only.
+Vishal Bhardwaj: Okay.
+Vishal Bhardwaj: So we were just talking about the tickets, so we have already discussed these two so one of them is a pending deployment and.
+Vishal Bhardwaj: Trevor Trevor is going to look into it and the next one is about adding the value lovers on the current POs system, so we have received approval from Trevor till now.
+Vishal Bhardwaj: So I think we can move ahead right.
+Dhana Luna: Did you touch on the report request for.
+Vishal Bhardwaj: Nothing it's.
+Dhana Luna: just wanted to give a quick points are there, so you guys seen or exactly what I had to do, unfortunately.
+Dhana Luna: I couldn't hold off any longer, this is one of the things that we needed to deploy so just letting you know that I recreated your report in production.
+Dhana Luna: So we tech we already have production, the reason why I didn't close it gets his because.
+Dhana Luna: marca.
+Dhana Luna: indicated that he might have additional updates to the report now that he has had.
+Dhana Luna: A few days with it so once I get the finalized updates to the report i'll forward it along and i'll have you if, if I have time on to it and i'll just go ahead and close this out.
+Dhana Luna: If not i'll send it over so you can make the at this possible, but that's kind of like where we're at right now.
+Vishal Bhardwaj: Okay, so do you want me to change the status of the ticket for now.
+Vishal Bhardwaj: Or is it.
+Dhana Luna: like this can you put it back into their pockets for me as.
+Vishal Bhardwaj: soon.
+Dhana Luna: As.
+Dhana Luna: You get home, you can put into my name, so we can get out of it.
+Vishal Bhardwaj: I think.
+Vishal Bhardwaj: Also, the next trip on next ticket is about the update for skirt comes.
+Vishal Bhardwaj: assume they might have been some confusion regarding the zip codes, so the file that we have uploaded already had the zip code in the in the file, and for that i've also opened our account, and you can see the zip code look up is all also updated.
+Vishal Bhardwaj: As for the support.
+Vishal Bhardwaj: In the file.
+Dhana Luna: Can you go back to the.
+Dhana Luna: comment from sun about.
+I said this was this was.
+Dhana Luna: Okay.
+Dhana Luna: All right, that's what I was going to offer so leaving that aside, there is another.
+Dhana Luna: Come on, let me get this slide from Helen, so there is another believe, unfortunately, if not dived into.
+Dhana Luna: Some of these tickets, but seven identify basically that popularity spore and customer segments.
+um.
+Dhana Luna: it's now possible okay.
+Vishal Bhardwaj: And so.
+Please.
+Vishal Bhardwaj: Okay, so about the strategic manner, I mean customer segment and the Foster popularity school these two fields so we're also I mean.
+Vishal Bhardwaj: I have to confirm about the popularity school, but the customer segment.
+Vishal Bhardwaj: was not really there on this ticket, I mean on the files that were shared initially.
+Vishal Bhardwaj: So.
+Dhana Luna: But this is not the flower going on.
+Vishal Bhardwaj: You can see the customer segment was not there, so that is why it was not uploaded initially, however, it was given in I mean in the.
+Vishal Bhardwaj: Later phase of this update, so our own card was the one who was going to pick this as a silence.
+Vishal Bhardwaj: reply.
+Vishal Bhardwaj: I mean command, so let me just open the command as well.
+Dhana Luna: So there must be a confusion, because there's a file that we've been updating, which is the one that we should be leveraging for the updates so there's a comment from me.
+Dhana Luna: know.
+Vishal Bhardwaj: Let me just open the come in, so this was the coming from Hong Kong, so he was going to pick the strategic management and the fsu popularity school.
+Dhana Luna: which he did, but he is doing that, based off of the file that I provided and I updated so if you find my there's a comment on there, where I think the file, that we should be using for update.
+I believe.
+Dhana Luna: I think it's below.
+Dhana Luna: That one.
+Dhana Luna: This one yeah.
+Vishal Bhardwaj: So I guess this one was regarding the updating the owners of the account.
+Dhana Luna: girl, and the file should wow.
+Vishal Bhardwaj: This one does have the customer segment and foursquare popularity the witches ultimately the foursquare populating scope on salesforce.
+Vishal Bhardwaj: Okay, so do you want us to update this, so we can take this in the morning and maybe by tomorrow if now having your morning tomorrow, you can get the state.
+Dhana Luna: That works for me thank you.
+Vishal Bhardwaj: Okay, so we'll pick this up and update the accounts.
+perfect.
+Vishal Bhardwaj: So do we also need to update the account owners as well.
+Dhana Luna: I believe, because there was a little bit of urgency around that if someone already took care of that.
+Vishal Bhardwaj: Okay, so we'll check for that, if the account owners are not updated it so we'll take that up as go ahead.
+Dhana Luna: All right, Okay, thank you.
+Vishal Bhardwaj: So I think that is all about this ticket and about the onboarding record enhancement, this is still in today so i'll go to this ticket, as I was working on another ticket, so I didn't get time for this.
+Dhana Luna: that's fine.
+Vishal Bhardwaj: Just open this.
+Vishal Bhardwaj: So this is the ongoing enhancements card, so I love work on this ticket and we'll get back to you with the initial questions that I have.
+Dhana Luna: I think I think it sounds like.
+Dhana Luna: A plan.
+Okay.
+Dhana Luna: Sorry for the background noise.
+Vishal Bhardwaj: I think it's fine it's not that much.
+Vishal Bhardwaj: So the next ticket is about the asset collection from bugs so.
+Vishal Bhardwaj: The hour I mean confirm from Philip confirm from Philip that this is going to take the changes that was identified in the earlier call is going to take.
+Vishal Bhardwaj: A couple of days for the change so for further requirement, I have what i've done is i've created another document around this which documents highlights basically.
+Vishal Bhardwaj: The full.
+Vishal Bhardwaj: Agreement form docusign and the asset collection form each and every field is.
+Vishal Bhardwaj: I mean covered here in this document, so you can just go to this and.
+Vishal Bhardwaj: Also, as I mentioned some of the errors of which is.
+Vishal Bhardwaj: which might be the potential changes for this ticket like I can just give you an example here so Defense site admin URL so basically this field is a.
+Vishal Bhardwaj: text field, which should be I mean in the best practices that should have been an URL field and also the error on the menu files mine many files if I try to upload more than eight files, the error, it shows is basically.
+Vishal Bhardwaj: Only eight logo attachments which should have been many attachments So these are some my new changes.
+Vishal Bhardwaj: That Tom.
+Vishal Bhardwaj: And I will I will i'm also working with Jordan on this so i've given the edit access, so if she feels like changing anything on this, so we can move on with this ticket.
+Dhana Luna: Okay perfect I was just gonna ask you have gotten feedback from Jordan and I will see on the file so.
+Okay.
+Vishal Bhardwaj: So the next ticket is also in the pending deployment phase so it's basically the code update the logic update rsm which was basically.
+Vishal Bhardwaj: Changing the rsm ownership for the.
+Vishal Bhardwaj: US folks.
+Vishal Bhardwaj: So.
+Vishal Bhardwaj: I think bill is so.
+Vishal Bhardwaj: Wanting it to be on production.
+Dhana Luna: i'm.
+Dhana Luna: Sorry i'm getting put on the slide is this ready to go away now quantifies deployed or whatever.
+Vishal Bhardwaj: Yes, it is ready to be deployed actually it has been already tested by data and she confirmed it is working, as expected, and the checklist is also on the ticket so.
+Vishal Bhardwaj: If you want us to deploy it, we can deploy it, as you can take care of it on your end as well.
+Vishal Bhardwaj: because everything is on the.
+Dhana Luna: Right, I will confirm with the guy says, if this is somebody that can grow and this Mondays report deployment If not, I will be here before, and the day so.
+Dhana Luna: You can run with this.
+Vishal Bhardwaj: Show done.
+Dhana Luna: Thank you.
+Dhana Luna: Thank you for.
+Vishal Bhardwaj: This is.
+Vishal Bhardwaj: Also, the next one is account transfer ticket for which was an ask from trouble.
+Vishal Bhardwaj: So it was asked in last friday's so we have updated the accounts as per request, and it is also working as expected.
+Vishal Bhardwaj: So we can deploy it as.
+Vishal Bhardwaj: Well, so these these are.
+Vishal Bhardwaj: All the tickets and the sprint and the rest are in the backlog so first of all, I think we can move the marketing this ticket debate 09 in the sprint if you feel like it.
+Vishal Bhardwaj: So.
+Vishal Bhardwaj: So i'm contacting Jordan for this ticket so there's a there has been some potential i'll still have to go through these domains so once I go to these comments i'll.
+Vishal Bhardwaj: update you on this ticket as well.
+Dhana Luna: please feel free to bring it.
+Dhana Luna: into.
+It doesn't.
+Dhana Luna: feel free to bring it into this friend who feel this is something that we can accomplish.
+Vishal Bhardwaj: Okay, great.
+Vishal Bhardwaj: So the next ticket is regarding the SF changing lead status from close to working.
+Vishal Bhardwaj: On this ticket of we have already updated the technical analysis and functional analysis so once you approve these and if these are the correct understanding, then we can go ahead with this ticket as well for deployment.
+Vishal Bhardwaj: And also, we have provided.
+Vishal Bhardwaj: Access to shawn.
+Vishal Bhardwaj: says.
+Dhana Luna: i'm having.
+Dhana Luna: A quick touch base with him in a little bit so i'll make sure that he's looking at this as well.
+Vishal Bhardwaj: So the next ticket as about just.
+Vishal Bhardwaj: So this was another ask from your end so about the validation rules i've just shared the user stories that we have created, as you know.
+Vishal Bhardwaj: This is basically the new flow.
+Vishal Bhardwaj: How it is going to work if we put the validation on save our products basically.
+Vishal Bhardwaj: So you can go to these user stories once and confirm if these are the exact requirements for this ticket and if we add the validation tool as for these user stories, this is going to continue to ask.
+Dhana Luna: Thank you.
+Vishal Bhardwaj: you're most welcome Jennifer so you can just add the remarks or comments here if you need to change anything, or you can also comment on the ticket as well.
+Vishal Bhardwaj: And these two tickets are included so once all the in progress tickets are done i'll pick this.
+Dhana Luna: purple Thank you so much.
+Vishal Bhardwaj: Thank you.
+Dhana Luna: Trevor Alice the other ticket to this song, we can have this early but i'm wondering if Michelle you can stay online, so we can discuss.
+Dhana Luna: Something.
+Vishal Bhardwaj: Oh sure Donna.
+Dhana Luna: Thank you for that.
+Dhana Luna: yeah we can you.
+Dhana Luna: like it.
+Dhana Luna: Was early as we address all the tickets again Trevor unless you have something else to bring up that we haven't discussed but it's not.
+Dhana Luna: lessen the call and vishal we can sell and it will be great.
+Vishal Bhardwaj: Alright, so Trevor do you have anything.
+Trevor Norman (he/him/his): No it's.
+Trevor Norman (he/him/his): Not you got through all the ones I was hoping for, thank you.
+Vishal Bhardwaj: you're most welcome.
+Dhana Luna: Okay.
+Vishal Bhardwaj: So I think we are good to end this call and Donna, I will be online and i'll try to.
+Vishal Bhardwaj: I mean remember the boss, but if I have a heart is not helping you.
+Vishal Bhardwaj: Leaving.
+Dhana Luna: Or we can just stay on this call, if you like, just on the recording.
+Vishal Bhardwaj: Oh sure to begin with, that as well.

@@ -74,7 +74,7 @@ def llama2_main_function1(file):
     # '''
 
     combine_custom_prompt='''
-    Identify and generate the most important points of the following text, in bullet points. Only include the most salient points, and omit any supporting details or less important information.
+    Identify and generate the most important action items for each individual in the following text, in bullet points, without repeating individual names. Only include the most salient points, and omit any supporting details or less important information.
     Text:`{text}`
     '''
 

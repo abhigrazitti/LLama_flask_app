@@ -1,0 +1,5 @@
+00:11:42	Ben Brody:	https://cloud.google.com/blog/topics/healthcare-life-sciences/sharing-google-med-palm-2-medical-large-language-model
+00:13:07	Ben Brody:	https://sites.research.google/med-palm/
+00:41:28	Ben Brody:	https://train.cerner.com/
+00:41:40	Ben Brody:	u: CCL123
+00:42:09	Ben Brody:	p: 8wC0$O09
