@@ -83,10 +83,12 @@ def llama2_main_function(file):
         template=combine_custom_prompt,
         input_variables=['text']
     )
+    llm = HuggingFacePipeline(pipeline=generate_text)
     map_prompt_template = PromptTemplate (
         input_variables=['text'],
         template=map_custom_prompt
     )
+
     chain = load_summarize_chain(llm = llm,
                                 chain_type="map_reduce",
                                 map_prompt=map_prompt_template,
@@ -94,7 +96,7 @@ def llama2_main_function(file):
                                 verbose=True)
 
 
-    llm = HuggingFacePipeline(pipeline=generate_text)
+    
 
 
    
