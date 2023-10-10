@@ -20,6 +20,8 @@ def allowed_file(filename):
 def index():
     return render_template('index.html')
 
+
+#ignore only for api access
 @app.route('/api/upload', methods=['POST'])
 def upload_file_api():
     if 'file' not in request.files:
@@ -46,7 +48,7 @@ def upload_file_api():
         return jsonify({"error": "Invalid file format. Please upload a .txt file"})
 
 
-
+#frontend route
 @app.route('/upload', methods=['POST'])
 def upload_file():
     if 'file' not in request.files:

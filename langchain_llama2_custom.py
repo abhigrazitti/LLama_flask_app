@@ -1,3 +1,4 @@
+#loading packges
 from torch import cuda, bfloat16
 import transformers
 from transformers import StoppingCriteria, StoppingCriteriaList
@@ -10,6 +11,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from langchain import PromptTemplate
 print("loaded all packages")
 
+#main function
 def llama2_main_function(file):
 
     device = f'cuda:{cuda.current_device()}' if cuda.is_available() else 'cpu'
@@ -18,7 +20,7 @@ def llama2_main_function(file):
     print(device)
 
     print("loading model....")
-    model_id ="meta-llama/Llama-2-7b-chat-hf"
+    model_id ="meta-llama/Llama-2-13b-chat-hf"
     hf_auth = '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'
     model_config = transformers.AutoConfig.from_pretrained(
         model_id,
