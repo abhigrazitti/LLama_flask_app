@@ -78,12 +78,12 @@ def llama2_main_function(file):
     '''
 
 
-
+    llm = HuggingFacePipeline(pipeline=generate_text)
     combine_prompt_template = PromptTemplate(
         template=combine_custom_prompt,
         input_variables=['text']
     )
-    llm = HuggingFacePipeline(pipeline=generate_text)
+    
     map_prompt_template = PromptTemplate (
         input_variables=['text'],
         template=map_custom_prompt
@@ -103,7 +103,7 @@ def llama2_main_function(file):
     sm_loader = UnstructuredFileLoader(file)
     sm_doc = sm_loader.load()
 
-    chain = load_summarize_chain(llm, chain_type="map_reduce", verbose=True)
+    
 
 
     from langchain.text_splitter import RecursiveCharacterTextSplitter
