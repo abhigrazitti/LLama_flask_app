@@ -2,33 +2,6 @@ from flask import Flask, render_template, request, jsonify
 #from langchain_llama2 import llama2_main_function
 from langchain_llama2_custom import llama2_main_function
 import os
-import re
-
-
-def preprocess_transcript_file(file_path):
-    
-
-    if file_path.lower().endswith('.vtt'):
-        with open(file_path, 'r') as file:
-            text = file.read()
-        # Removing timestamps and numbering using regular expressions
-        cleaned_text = re.sub(r'\d+\n\d\d:\d\d:\d\d\.\d+ --> \d\d:\d\d:\d\d\.\d+\n', '', text)
-        cleaned_text = re.sub(r'^WEBVTT\n', '', cleaned_text, flags=re.MULTILINE)
-
-        # Removing extra spaces and empty lines
-        cleaned_text = re.sub(r'\n+', '\n', cleaned_text)
-        cleaned_text = cleaned_text.strip()
-
-        # Save cleaned text to a .txt file
-        output_file_path = os.path.splitext(file_path)[0] + '_cleaned.txt'
-        with open(output_file_path, 'w') as output_file:
-            output_file.write(cleaned_text)
-
-        return output_file_path
-
-    elif file_path.lower().endswith('.txt'):
-        # If file name extension .txt file, return the content as it is
-        return file_path
 
 app = Flask(__name__)
 
@@ -56,18 +29,13 @@ def upload_file_api():
 
     file = request.files['file']
 
-    
-
-
     if file.filename == '':
         return jsonify({"error": "No selected file"})
 
-    if file:
+    if file and file.filename.endswith('.txt'):
         # Save the uploaded file
         file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
-        #preprocessing file
-        file_path =  preprocess_transcript_file(file_path)
-        # file.save(file_path)
+        file.save(file_path)
 
         # You can add your processing logic here
         result = llama2_main_function(file_path)
@@ -94,7 +62,7 @@ def upload_file():
     if file and file.filename.endswith('.txt'):
         # Save the uploaded file
         file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
-        # file.save(file_path)
+        file.save(file_path)
 
         # You can add your processing logic here
         result = llama2_main_function(file_path)

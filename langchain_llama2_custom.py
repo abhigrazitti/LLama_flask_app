@@ -95,15 +95,10 @@ def llama2_main_function(file):
                                 combine_prompt=combine_prompt_template,
                                 verbose=True)
 
-
-    
-
-
    
     sm_loader = UnstructuredFileLoader(file)
     sm_doc = sm_loader.load()
 
-    
 
 
     from langchain.text_splitter import RecursiveCharacterTextSplitter
