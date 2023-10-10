@@ -48,6 +48,38 @@ def index():
     return render_template('index.html')
 
 
+#frontend route
+@app.route('/upload', methods=['POST'])
+def upload_file():
+    if 'file' not in request.files:
+        return "No file part"
+    
+    file = request.files['file']
+    
+    if file.filename == '':
+        return "No selected file"
+    
+    if file:
+        # Save the uploaded file
+        file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
+        #preprocessing file
+        file_path =  preprocess_transcript_file(file_path)
+        # file.save(file_path)
+
+        # You can add your processing logic here
+        result = llama2_main_function(file_path)
+        print("printing result.............")
+        print(result)
+
+        return render_template('index.html', content=result)
+        
+    else:
+        return "Invalid file format. Please upload a .txt file or .vtt"
+
+
+
+
+
 #ignore only for api access
 @app.route('/api/upload', methods=['POST'])
 def upload_file_api():
@@ -55,9 +87,6 @@ def upload_file_api():
         return jsonify({"error": "No file part"})
 
     file = request.files['file']
-
-    
-
 
     if file.filename == '':
         return jsonify({"error": "No selected file"})
@@ -80,31 +109,6 @@ def upload_file_api():
         return jsonify({"error": "Invalid file format. Please upload a .txt file"})
 
 
-#frontend route
-@app.route('/upload', methods=['POST'])
-def upload_file():
-    if 'file' not in request.files:
-        return "No file part"
-    
-    file = request.files['file']
-    
-    if file.filename == '':
-        return "No selected file"
-    
-    if file and file.filename.endswith('.txt'):
-        # Save the uploaded file
-        file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
-        # file.save(file_path)
-
-        # You can add your processing logic here
-        result = llama2_main_function(file_path)
-        print("printing result.............")
-        print(result)
-
-        return render_template('index.html', content=result)
-        
-    else:
-        return "Invalid file format. Please upload a .txt file."
 
 
 if __name__ == '__main__':
