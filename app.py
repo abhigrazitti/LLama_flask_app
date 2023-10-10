@@ -1,13 +1,12 @@
 from flask import Flask, render_template, request, jsonify
 #from langchain_llama2 import llama2_main_function
-from langchain_llama2_custom import llama2_main_function
+from langchain_llama2_custom import llama2_main_function1, llama2_main_function2
 import os
 import re
 
 
 def preprocess_transcript_file(file_path):
     
-
     if file_path.lower().endswith('.vtt'):
         with open(file_path, 'r') as file:
             text = file.read()
@@ -68,11 +67,15 @@ def upload_file():
         
 
         # You can add your processing logic here
-        result = llama2_main_function(file_path)
-        print("printing result.............")
-        print(result)
+        result1 = llama2_main_function1(file_path)
+        # result2 = llama2_main_function2(file_path)
+        print("printing result1.............")
+        print(result1)
 
-        return render_template('index.html', content=result)
+        # print("printing result2.............")
+        # print(result2)
+
+        return render_template('index.html', content=result1)
         
     else:
         return "Invalid file format. Please upload a .txt file or .vtt"
