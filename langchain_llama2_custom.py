@@ -120,16 +120,14 @@ def llama2_main_function2(file):
     #adding custom prompts
     #custom prompt for langchain
     combine_custom_prompt='''
-    Generate only important points of the following text that includes the following elements:
-
-    * Bullet points that list the key points of the text..
+    Summarize the discussed items in the following text in bullet points, ignoring irrelevant discussion.
     Text:`{text}`
     '''
 
     map_custom_prompt='''
-    Write only important action items of individuals from the followling text in bullet points if action items is not important then do not write it.:
+    Summarize the discussed items in the following meeting transcript in bullet points, ignoring irrelevant discussion.
     TEXT:`{text}`
-    Action Items:
+    Discussed Items:
     '''
     
     combine_prompt_template = PromptTemplate(

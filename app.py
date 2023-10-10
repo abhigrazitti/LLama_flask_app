@@ -68,14 +68,14 @@ def upload_file():
 
         # You can add your processing logic here
         result1 = llama2_main_function1(file_path)
-        # result2 = llama2_main_function2(file_path)
+        result2 = llama2_main_function2(file_path)
         print("printing result1.............")
         print(result1)
 
-        # print("printing result2.............")
-        # print(result2)
+        print("printing result2.............")
+        print(result2)
 
-        return render_template('index.html', content=result1)
+        return render_template('index.html', content=result1, content2 = result2)
         
     else:
         return "Invalid file format. Please upload a .txt file or .vtt"
