@@ -62,9 +62,10 @@ def upload_file():
     if file:
         # Save the uploaded file
         file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
+        file.save(file_path)
         #preprocessing file
         file_path =  preprocess_transcript_file(file_path)
-        # file.save(file_path)
+        
 
         # You can add your processing logic here
         result = llama2_main_function(file_path)
