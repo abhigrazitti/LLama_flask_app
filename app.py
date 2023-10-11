@@ -7,18 +7,18 @@ import re
 
 def preprocess_transcript_file(file_path):
     
+    def remove_timestamps_and_numbering(text):
+        cleaned_text = re.sub(r'\d+:\d+:\d+\.\d+ --> \d+:\d+:\d+\.\d+\n', '', text)
+        return cleaned_text
+
     if file_path.lower().endswith('.vtt'):
         with open(file_path, 'r') as file:
             text = file.read()
-        # Removing timestamps and numbering using regular expressions
-        cleaned_text = re.sub(r'\d+\n\d\d:\d\d:\d\d\.\d+ --> \d\d:\d\d:\d\d\.\d+\n', '', text)
+        cleaned_text = remove_timestamps_and_numbering(text)
         cleaned_text = re.sub(r'^WEBVTT\n', '', cleaned_text, flags=re.MULTILINE)
-
-        # Removing extra spaces and empty lines
         cleaned_text = re.sub(r'\n+', '\n', cleaned_text)
         cleaned_text = cleaned_text.strip()
 
-        # Save cleaned text to a .txt file
         output_file_path = os.path.splitext(file_path)[0] + '_cleaned.txt'
         with open(output_file_path, 'w') as output_file:
             output_file.write(cleaned_text)
@@ -26,9 +26,24 @@ def preprocess_transcript_file(file_path):
         return output_file_path
 
     elif file_path.lower().endswith('.txt'):
-        # If file name extension .txt file, return the content as it is
         return file_path
 
+    elif file_path.lower().endswith('.docx'):
+        doc = Document(file_path)
+        text = ''
+        for paragraph in doc.paragraphs:
+            text += paragraph.text + '\n'
+        cleaned_text = remove_timestamps_and_numbering(text)
+        output_file_path = os.path.splitext(file_path)[0] + '_cleaned.txt'
+        with open(output_file_path, 'w') as output_file:
+            output_file.write(cleaned_text)
+        
+        return output_file_path
+
+    else:
+        raise ValueError("Unsupported file format. Supported formats are .vtt, .txt, and .docx")
+    
+    
 app = Flask(__name__)
 
 # Define the allowed file extensions
